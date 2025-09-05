@@ -1,11 +1,3 @@
-.calculator-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background-color: #f4f4f4;
-}
-
 .calculator {
   background: #fff;
   padding: 20px;

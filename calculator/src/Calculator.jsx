@@ -14,14 +14,13 @@ export default function Calculator() {
 
   const handleCalculate = () => {
     try {
-      setInput(eval(input).toString()); // simple calculation
+      setInput(eval(input).toString());
     } catch (error) {
       setInput("Error");
     }
   };
 
   return (
-    // <div className="calculator-container">
       <div className="calculator">
         <h2 className="title">Calculator</h2>
         <input type="text" value={input} readOnly className="display"/>
@@ -50,6 +49,5 @@ export default function Calculator() {
           <button onClick={handleClear} className="btn clear">C</button>
         </div>
       </div>
-    // </div>
   );
 }
